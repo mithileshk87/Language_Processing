@@ -162,7 +162,7 @@ class Parse():
                 return ''
                 pass
         else:
-            print 'Unsupported format'
+            print ('Unsupported format')
             return '', ''
 
     def preprocess(self, document):
